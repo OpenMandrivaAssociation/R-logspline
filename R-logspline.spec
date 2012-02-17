@@ -10,6 +10,8 @@ License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
+BuildRequires:    blas-devel
+BuildRequires:    lapack-devel
 
 %description
 Routines for the logspline density estimation. oldlogspline uses the same
