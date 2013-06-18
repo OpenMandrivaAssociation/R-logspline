@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          2.1.4
-Release:          1
+Release:          2
 Summary:          Logspline density estimation routines
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
